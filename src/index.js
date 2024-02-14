@@ -5,6 +5,6 @@ import Login from "./pages/login/login.jsx";
 ReactDOM.render(
     <div>
         
-        <Login />
+        
     </div> 
     ,document.getElementById("root"));
