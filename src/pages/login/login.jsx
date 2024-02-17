@@ -1,4 +1,5 @@
 import "./login.css";
+import Navbar from "../Start/Navbar.jsx";
 function Login() {
   return (
     <div className="login">

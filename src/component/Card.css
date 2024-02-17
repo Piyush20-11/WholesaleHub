@@ -1,0 +1,75 @@
+
+#Searchbar{
+  margin: auto;
+  text-align: center;
+  margin: 4rem 0;
+}
+.container{
+  
+    display: flex;
+    flex-wrap: wrap;
+    place-items: center;
+    margin-inline: 1.5rem;
+    padding-block: 5rem;
+    /* display: inline; */
+  }
+  .card {
+      display: flex;
+      flex-direction: column;
+      border: 1px solid #c61616;
+      background-color: rgb(238, 222, 201);
+      border-radius: 16px;
+      padding: 5px;
+      margin: 10px;
+      width: 300px;
+      height: 300px;
+    }
+    
+    .product-info {
+      flex: 1;
+      background-color: var(hsl(38, 100%, 78%));
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .product-info img {
+      width: 100px; /* Adjust the size as needed */
+      height: 100px; /* Adjust the size as needed */
+    }
+    
+    .quantity-input {
+      flex: 1;
+      border-radius: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    #quantity{
+      border-radius: 5px;
+    }
+    .checkbox {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    /* Add more styles as needed */
+    .center {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 100px;
+    }
+  
+    .btn{
+      background-color: teal;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    }
